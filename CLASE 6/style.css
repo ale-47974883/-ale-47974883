@@ -13,7 +13,7 @@ h1{
     width: 100%;
 }
 .padre{
-    background-color: olivedrab;
+    background-color: red;
     display: flex;
     flex-direction:row;
     height: 80vh;
