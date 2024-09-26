@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>clase 3 </title>
+</head>
+<body>
+    <h1 >formulario</h1>
+    <form action=""><!--indica a donde se enviara el formulario-->
+        <label for="nombre" class="clase3elemento">nombre</label><!--informa al usuario que debe completar-->
+        <input type="text" id="nombre"><!--informacion ingresada por el usuario, entrada de la informacion. 
+        type define de que manera el usuario ingresa la informacion-->
+
+        <label for="apellido" class="clase3elemento">apellido</label>
+        <input type="text" id="apellido" name="apellido">
+
+        <label for="correo">email</label>
+        <input type="email" id="correo" name="correo">
+
+        <label for="contraseña">clave</label>
+        <input type="password" id="contraseña" name="contraseña">
+
+        <label for="">seleccione curso</label><!--checkbox permite seleccionar varias ociones-->
+        <div >
+            <label for="pwi">programacion web inicial</label>
+            <input type="checkbox" id="pwi" value="pwi" name="curso"> <!--value es el valor con el que va a ser enviada la informacion y name el nombre de ese valoren este caso seria curso:pwi-->
+            <label for="pwa">programacion web avanzado</label>
+            <input type="checkbox" id="pwa" value="pwa" name="curso">
+        </div><!--radio permite seleccionar una opcion entre varias-->
+        <label for="">seleccione turno</label>
+        <div>
+        <label for="mañana"> dia </label>
+        <input type="radio" id="mañana" name="turno">
+        <label for="noche">noche</label>
+        <input type="radio" id="noche" name="turno">
+        </div>
+        <label for="edad">edad</label>
+        <input type="number" value="edad">
+        <div>
+            <label for="pais">indique su pais de procedencia</label>
+            
+            <select id="pais" name="origen">
+                <option value="">arg</option><!--el atributo name indica el valo que le vamos a asignar-->
+                <option value="">uy</option>
+                <option value="">br</option>
+                <option value="">py</option>
+            </select>
+        </div>
+            <!--dos opciones-->
+            <input type="submit" value="enviar"><!--boton de envio de formulario-->
+            <!--alternativa al input submit-->
+            <button>enviar</button>
+            
+            
+
+    </form>
+
+    
+</body>
+</html>
+<!--ATRIBUTOS 
+ID:nombre unico en el documento a una etiqueta
+CLASS:LO NOMBRE NO PUEDEN INICIAR CON UN NUMERO Y PUEDO ASIGNAR MAS DE UNA CLASE A UN ELEMENTO  y se separa mediante 1 espacio
+PERMITE AGRUPAR VARIAS ETIQUETAS BAJO UN NOMBRE-->

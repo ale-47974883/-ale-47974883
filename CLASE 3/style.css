@@ -1,0 +1,71 @@
+/*
+selector{
+propiedad: valor
+propiedad: valor
+}
+*/
+
+/*
+tipos de selectores: 
+-su etiqueta
+-su clase .
+-id #
+*/
+
+
+
+    h1{
+        color: red;
+        background-color: aquamarine;
+        width: 50%;
+    }
+    h2{
+        color: aqua;
+    }
+    /*por clase*/
+    .clase3elemento{
+        color: chartreuse;
+    }
+    .titular{
+        color: blueviolet;
+    }
+    .parrafo{
+        color: blueviolet;
+    }
+
+
+    /*por id*/
+    #LOLA{
+        color: black;
+        background-color: aqua;
+        width:25vw; /*25 porciento de la pantalla*/
+        height:25vh;
+    }
+    #lol{
+        color: #ff988a99 ;
+    }
+    #pais
+    {
+        color: rgb(23,45,100,0.6);
+    }
+
+    /*
+    colores primarios:rojo,verde,azul
+
+    hexadecimal(# y 6 digitos del o-9 y de a-f) y si quiero transparencia sumo 2 valores mas
+    rgba/rgb : red/gree/blue de 0-255 rgba(r/b/g/transparencia de 0-1)
+    predeterminados de css
+
+    width(ancho)
+    height(alto)
+
+    unidade
+    px-> UNIDADES FIJAS 
+    % -> 100% el tamaño de su padre ej
+    <ul> (PADRE)
+        <li>productos</li> (HIJOS)
+        <li>sobre nosotros</li>
+    </ul>
+
+    vw(VIEWWIDTH) vh(VIEWHIGHT) TOMA EL 100%
+    */

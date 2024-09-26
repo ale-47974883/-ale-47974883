@@ -1,0 +1,23 @@
+h1{
+    background-color: pink;
+    text-align: center;
+    width: 200px;
+}
+.tarjeta{
+    border: 2px solid cadetblue;
+    width: 200px;
+    background-color: aliceblue;
+    height: fit-content;
+}
+.tarjeta>img{
+    width: 100%;
+}
+.padre{
+    background-color: olivedrab;
+    display: flex;
+    flex-direction:row;
+    height: 80vh;
+    justify-content: center;
+}
+/*
+flexbox le dice al padre como se van a comportar sus hijos en filas o columnas*/

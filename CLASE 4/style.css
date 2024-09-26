@@ -1,0 +1,81 @@
+html{
+    font-size: 14px;
+}
+.termidor{
+    font-size: 2rem;
+}
+.ANCLA{
+    padding: 0.6em;
+    background-color: goldenrod;
+    border-radius: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: normal;
+
+    }
+#subtitulo{
+    color: blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+.nav{
+    font-size:  20px; ;
+}
+*{
+    margin: 0px;
+    /*selector universal- aploica las propiedades que ingresemos entre las llaves a toda la etiqueta del body(inclusive al body)*/
+}
+#subtitulo
+{
+    color: blue;
+    background-color: brown;
+    padding: 30px 10px 5px 23px; 
+    /*1 valor aplica a los 4 extremos
+    4 valores aplican a 4 extremos iniciando por el extremo superior y continuando en sentido horario
+    2 valores aplican el primero para superior e inferior y el segundo para derecha e izquierda*/
+    margin: 20px 40px ;
+}
+h1{
+    margin-bottom: 35px;
+    margin-top: 40px;
+    background-color: aqua;
+    border-width: 4px;
+    border-color:blueviolet ;
+    border-style:solid ;
+    border-radius: 50%; /*REDONDEO DE BORDES */
+    width: 300px;
+    height: 300px;
+    text-shadow: 10px 10px red ;
+
+
+
+}
+h2{
+    border: 20px;
+    margin: 30px;
+    text-decoration: underline none; /*linea inferior*/
+    text-decoration: line-through none;
+}
+a{
+    padding: 10px;
+    background-color: goldenrod;
+}
+/*color-bacground-color / width height
+modelo de caja 
+-relleno (padding)
+-margen (margin)
+-borde (border) 
+/*cuando dos selectores afectan al mismo elemento el browser toma la propiedad del selector mas especifica
+id>class>etiqueta
+*/
+/*px / % / vw-vh*/
+/*llamar elemento haciendo referencia de otro
+dejando un espacio o > elemento que se encuentra dentro de otro
+con el + elementos hermanos
+con */
+/*propiedades de tipografia
+font-text
+unidades:px o em-rem
+em: multiplica eltamaño tipografico del padre.
+rem: raiz toma el tamaño del elemento raiz - html (por defecto 16px   
+text decoration*/

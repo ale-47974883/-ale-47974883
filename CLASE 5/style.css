@@ -1,0 +1,29 @@
+/*
+posicionamiento
+flexbox
+position
+grid
+*/
+.img-tarjeta{
+    border: 2px solid black;
+    width: 200px;
+    position: relative;
+}
+h1{
+    width: 25%;
+    display: inline-block;
+    /*display: none; oculta mi etiqueta sirve para menues desplegables */
+    background-color: cadetblue;
+    
+}
+a{
+    background-color: pink;
+}
+/*
+display block reserva todo el ancho de la pantalla*/
+
+/*---------------------------------------------------------------------------------------*/
+/*git sistema de versionado
+los comando de git se manejan por medio de la terminal
+github es la plataforma remota
+carpetas-repositorios

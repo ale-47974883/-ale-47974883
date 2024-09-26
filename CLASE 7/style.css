@@ -1,0 +1,72 @@
+.padre{
+    display: flex;
+    background-color: tomato; 
+    align-items: center;
+    flex-direction: column;
+    height: 1200px; 
+    padding: 20%;
+    width: 100%;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 30px;
+    
+}
+.tranlate{
+    background-color: brown;
+    transform: translate(-200px,);
+    /*translate(x),(y) ->translada el elemento
+    (tranlatex): + abajo y - arriba / (translatey): + derecha, -izquierda*/
+}
+.tranlate:hover{
+    transform: translate(20px);
+    background-color: aqua;
+    transition: transform 5s ease-in-out
+    , background-color 1s;
+}
+.rotate{
+    color: black;
+    transform: rotate(45deg);
+    background-color: chartreuse;
+    /*unidad de medida grados(deg/degree)*/
+}
+.rotate:active{
+    transform: rotate(-360deg) ;
+    background-color: yellow;
+    transition:transform 5s, background-color 4s ;
+}
+.scale{
+    color: chartreuse;
+    transform: scale(1,1,2);
+    background-color: black;
+}
+.scale:active{
+    transform: scale(0.5,3);
+    background-color: antiquewhite;
+    transition: transform 5s, background-color 3s;
+}
+.skew{
+    transform: skew(2deg);
+    background-color: darkblue;
+    color: aliceblue;
+}
+.skew:active{
+    background-color: aquamarine;
+    transform: skew(60deg);
+    transition: transform 5s, background-color 5s;
+}
+.combo:active{
+    transform: rotate(30deg) scale(2) skew(20deg) ;
+    transition: transform 5s;
+}
+/*pseudo clases*-->decorado nos permite modificar el css cuando el usuario se encuentre haciendo algunas acciones
+
+selector:pseudoclases{
+propiedad:valor}*/
+/*transition:propiedad/es tiempo
+nos permite hacer transiciones progresivas
+*/
