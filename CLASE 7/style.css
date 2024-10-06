@@ -40,7 +40,7 @@ div{
     transition:transform 5s, background-color 4s ;
 }
 .scale{
-    color: chartreuse;
+    color: rgb(42, 80, 4);
     transform: scale(1,1,2);
     background-color: black;
 }
